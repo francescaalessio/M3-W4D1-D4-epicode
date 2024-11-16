@@ -1,0 +1,108 @@
+body {
+    background-color: #141414;
+    color: white;
+}
+
+.main-container {
+    max-width: 1800px;
+    margin: 0 auto;
+    padding: 0 60px;
+}
+
+.navbar {
+    background-color: #141414;
+}
+
+.netflix-logo {
+    width: 92px;
+    height: auto;
+}
+
+.shows-header {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+.section-title {
+    color: #e5e5e5;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+
+.show-card {
+    transition: all 0.3s ease;
+    cursor: pointer;
+    position: relative;
+    z-index: 1;
+}
+
+.show-card:hover {
+    transform: scale(1.2);
+    z-index: 2;
+}
+
+.show-card img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.row {
+    margin-bottom: 2rem;
+}
+
+.col-6, .col-md-4, .col-lg-2 {
+    padding: 0 0.5rem;
+}
+
+.footer-container {
+    width: 100%;
+    max-width: 980px;
+    margin: 0 auto;
+    padding: 0 4rem;
+}
+
+.footer-links {
+    font-size: 13px;
+    color: #808080;
+}
+
+.footer-links a {
+    color: #808080;
+    text-decoration: none;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+.social-icons {
+    text-align: left;
+    margin-bottom: 1rem;
+}
+
+.social-icons a {
+    color: #808080;
+    font-size: 24px;
+    margin-right: 20px;
+    text-decoration: none;
+}
+
+.social-icons a:hover {
+    color: #fff;
+}
+
+.service-code-btn {
+    text-align: left;
+    margin: 20px 0;
+}
+
+.copyright {
+    text-align: left;
+    margin-top: 20px;
+    color: #808080;
+}
